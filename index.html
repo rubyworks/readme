@@ -1,1 +1,85 @@
-My GitHub Page
+<html>
+<head>
+  <title>Readme</title>
+  <style>
+    pre { padding: 10px 20px 20px 20px; margin 0; border: 1px solid #ccc; }
+    #article { margin: 0 auto; width: 960px; }
+    #footer { text-align: center; padding: 40px; }
+  </style>
+</head>
+<body>
+
+<div id="article">
+
+<h1>Readme</h1>
+
+<p><a href="http://rubyworks.github.com/readme">Website</a> /
+<a href="http://github.com/rubyworks/readme">Development</a> /
+<a href="http://groups.google.com/groups/rubyworks-mailinglist">Mailing List</a></p>
+
+<h2>Description</h2>
+
+<p>Ever thought perhaps that all that effort in creating a good README, while
+great for your end-userss, hadn't ever done you a hill of beans worth of good
+when it came to constructing your project's metadata. Well hang on to your
+nerd glasses! Here comes a gem that does just that!</p>
+
+<h2>Instruction</h2>
+
+<p>The library is about as easy to use as you can imagine.</p>
+
+<pre><code>require 'readme'
+
+readme = Readme.file
+
+readme.name
+readme.description
+readme.copyright
+</code></pre>
+
+<p>It also comes with a command line client to pump out the data into variant
+formats, such a YAML, JSON and even Ruby code.</p>
+
+<pre><code>
+$ readme --yaml
+
+$ readme description
+</code></pre>
+
+<h2>Copyright</h2>
+
+<p>Copyright (c) 2009 Rubyworks. All rights reserved.</p>
+
+<p>Readme can be reistributed in accordance with the <strong>BSD-2-Clause</strong> license.</p>
+
+<p>See COPYING.md file for details.</p>
+
+
+<div id="footer">
+  <script type="text/javascript"><!--
+  google_ad_client = "ca-pub-1126154564663472";
+  /* RUBYWORKS 09-10-02 728x90 */
+  google_ad_slot = "0788888658";
+  google_ad_width = 728;
+  google_ad_height = 90;
+  //-->
+  </script>
+  <script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+  </script>
+</div>
+
+</div>
+
+<div style="position: absolute; top: 0; right: 0;">
+  <a href="http://github.com/rubyworks/readme"><img src="http://rubyworks.github.com/assets/images/fork-me.png"/></a>
+</div>
+
+<div style="position: fixed; bottom: 0; right: 5px;">
+  <a href="http://rubyworks.github.com">
+    <img src="http://rubyworks.github.com/assets/images/seal.png" height="150px" />
+  </a>
+</div>
+
+</body>
+</html>
