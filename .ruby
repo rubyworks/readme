@@ -19,6 +19,26 @@ requirements:
   groups:
   - build
   development: true
+- name: mast
+  groups:
+  - test
+  development: true
+- name: rubytest
+  groups:
+  - test
+  development: true
+- name: citron
+  groups:
+  - test
+  development: true
+- name: ae
+  groups:
+  - test
+  development: true
+- name: simplecov
+  groups:
+  - test
+  development: true
 dependencies: []
 conflicts: []
 repositories:

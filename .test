@@ -1,0 +1,18 @@
+require 'citron'
+require 'ae'
+
+# Default test run.
+Test.run do |r|
+  r.files << 'test'
+end
+
+# Generate SimpleCov coverage report.
+Test.run :cov do |r|
+  r.files << 'test'
+  require 'simplecov'
+  SimpleCov.start do
+    coverage_dir 'log/coverage'
+    add_filter "/test/"
+  end
+end
+

@@ -31,28 +31,6 @@ file 'lib/**/*' do
   exit -1 unless system('detroit test')
 end
 
-#state :create_project do
-#  ! File.exist?('.ruby')
-#end
-
-#rule :create_project do
-#  # gem install dotruby
-#  system '$EDITOR ruby.yaml'
-#  #break unless ask('creating new project?')
-#  #meta = YAML.load_file('ruby.yaml')
-#  #name = ARGV[1] || File.basename(Dir.pwd)
-#  #meta['name'] = name
-#  #meta.each do |k,v|
-#  #  case v2 = ask("#{k} (#{v}):")
-#  #  when nil, ''
-#  #  when '`' then exit
-#  #  when '!' then exit -1
-#  #  else
-#  #    meta[k] = YAML.load(v2)
-#  #  end
-#  #end
-#end
-
 
 #require 'facets/functor'
 #class String

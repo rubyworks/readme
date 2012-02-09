@@ -1,4 +1,9 @@
 ---
-- 'detroit (build)'
-- 'reap    (build)'
+- 'detroit   (build)'
+- 'reap      (build)'
+- 'mast      (test)'
+- 'rubytest  (test)'
+- 'citron    (test)'
+- 'ae        (test)'
+- 'simplecov (test)'
 
