@@ -5,6 +5,8 @@
 [Issue Tracker](http://github.com/rubyworks/readme/issues) /
 [Mailing List](http://groups.google.com/groups/rubyworks-mailinglist)
 
+[![Build Status](https://secure.travis-ci.org/rubyworks/readme.png)](http://travis-ci.org/rubyworks/readme)
+
 
 ## Description
 
