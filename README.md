@@ -11,7 +11,7 @@
 ## Description
 
 Ever thought perhaps that all the effect in creating a good README, while
-great for your end-userss, did't every do you a hill of beans worth of good
+great for your end-users, didn't every do you a hill of beans worth of good
 when it came to constructing your project's metadata. Well, hang on to your
 nerd glasses! Here comes a gem that does just that!
 
@@ -46,7 +46,7 @@ See the [API documentation](http:/rubydoc.info/gems/readme) and `readme --help` 
 
 Copyright (c) 2009 Rubyworks. All rights reserved.
 
-Readme can be reistributed in accordance with the **BSD-2-Clause** license.
+Readme can be redistributed in accordance with the **BSD-2-Clause** license.
 
 See COPYING.md file for details.
 
