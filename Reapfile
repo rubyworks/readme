@@ -8,7 +8,8 @@
 # TODO: Do things in ruby instead of shelling out!
 #
 
-ignore 'pkg', 'web'
+metadata = YAML.load_file('.ruby')
+version  = metadata['version']
 
 desc 'update manifest file'
 task 'manifest' do
@@ -18,7 +19,7 @@ end
 desc 'release and tag'
 task 'release' do
   exit -1 unless system('detroit release')
-  system 'pom news | git tag -a -F - #{version}'
+  system "pom news | git tag -a -F - #{version}"
 end
 
 file 'var/*' do

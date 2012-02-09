@@ -101,7 +101,7 @@ module DotRuby
         gemspec.name        = name
         gemspec.version     = metadata['version']
         gemspec.summary     = metadata['summary']
-        gemspec.description = metadata['description']
+        gemspec.description = metadata['description'].to_s.gsub("\n", " ")
 
         metadata['authors'].each do |author|
           gemspec.authors << author['name']
