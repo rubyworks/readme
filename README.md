@@ -10,14 +10,14 @@
 
 ## Description
 
-Ever thought perhaps that all the effect in creating a good README, while
-great for your end-users, didn't every do you a hill of beans worth of good
-when it came to constructing your project's metadata. Well, hang on to your
+Ever thought perhaps that all the effort that went into creating a good README,
+while great for your end-users, hadn't ever done you a lick of good
+when it came to constructing your project's metadata? Well, hang on to your
 nerd glasses! Here comes a gem that does just that!
 
-Okay, don't get too excited just yet. Readme's heuristics are rather limited
-thus far, but with time and contribution she'll be right fine in the not
-to distant future.
+Okay, don't get too excited just yet. Though Readme can produce useful results
+as is, her heuristics are rather limited at this point. With time and **contribution**
+she'll be right fine in the not too distant future.
 
 
 ## Instruction
