@@ -10,11 +10,13 @@
 
 ignore 'pkg', 'web'
 
-trip 'manifest' do
+desc 'update manifest file'
+task 'manifest' do
   system 'mast -u'
 end
 
-trip 'release' do
+desc 'release and tag'
+task 'release' do
   exit -1 unless system('detroit release')
   system 'pom news | git tag -a -F - #{version}'
 end
