@@ -1,7 +1,8 @@
 #!mast .ruby .yardopts bin info data lib man spec test [A-Z]*.*
+.ruby
 bin/readme
 lib/readme/cli.rb
 lib/readme/version.rb
 lib/readme.rb
-HISTORY.rdoc
+HISTORY.md
 README.md

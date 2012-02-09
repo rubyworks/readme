@@ -31,7 +31,7 @@ formats, such a YAML, JSON and even Ruby code.
 
 ## Copyright
 
-Copyright (c) 2011 Rubyworks. All rights reserved.
+Copyright (c) 2009 Rubyworks. All rights reserved.
 
 Readme can be reistributed in accordance with the **BSD-2-Clause** license.
 
